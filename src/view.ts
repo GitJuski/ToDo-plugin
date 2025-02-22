@@ -1,5 +1,5 @@
 import { ItemView, WorkspaceLeaf } from "obsidian";
-import { ToDoModal } from "modal";
+import { ToDoModal } from "./modal";
 
 export const VIEW_TYPE_TODO = "todo-view";
 
