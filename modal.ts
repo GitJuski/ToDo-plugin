@@ -6,7 +6,7 @@ export class ToDoModal extends Modal {
 	constructor(app: App, onSubmit: (result: string) => void) {
 		super(app);
 			this.setTitle("Add a To-Do");
-			let todo = "";
+			let todo: string = "";
 
 			// Add a input area for inputting the ToDo
 		new Setting(this.contentEl)
